@@ -34,7 +34,7 @@ The goal is to provide as comprehensive a list of API tools as possible using th
 
 ## Comparison Resources
 
-- [AppSec Santa — API Security Tools](https://appsecsanta.com/api-security-tools) — Independent comparison of 13+ API security tools with feature breakdowns, licensing info, and alternatives.
+- [AppSec Santa — API Security Tools](https://appsecsanta.com/api-security-tools) — Independent comparison of 9 API security tools with feature breakdowns, licensing info, and alternatives.
 
 #### Adding Tools
 
