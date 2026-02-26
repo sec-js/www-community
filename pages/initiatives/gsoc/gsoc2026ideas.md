@@ -7,7 +7,7 @@ permalink: /initiatives/gsoc/gsoc2026ideas
 
 # {{page.title}}
 
-[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [OWASP DevSecOps Maturity Model](#owasp-devsecops-maturity-model) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Nest](#owasp-nest) &bull; [OWASP Juice Shop](#owasp-juice-shop) &bull; [Pygoat](#pygoat) &bull; [OpenCRE](#opencre) &bull; [OWASP OWTF](#owtf) &bull; [OWASP Cornucopia](#owasp-cornucopia)
+[Bug Logging Tool (BLT)](#bug-logging-tool-blt) &bull; [OWASP DevSecOps Maturity Model](#owasp-devsecops-maturity-model) &bull; [OWASP Nettacker](#owasp-nettacker) &bull; [OWASP Nest](#owasp-nest) &bull; [OWASP Juice Shop](#owasp-juice-shop) &bull; [Pygoat](#pygoat) &bull; [OpenCRE](#opencre) &bull; [OWASP OWTF](#owtf) &bull; [OWASP Cornucopia](#owasp-cornucopia) &bull; [OWASP Web Application Honeypot](#owasp-honeypot)
 
 <!-- Template: Use a format like below to add your project, don't forget to add it to the anchor links above:
 ### [Project Name]
@@ -764,3 +764,41 @@ OWTF's proxy was written almost 10 years ago based on the Tornado Web Framework.
 #### Mentors
 - [Johan Sydseter](mailto:johan.sydseter@owasp.com)
 - [Colin Watson](colin.watson@owasp.org)
+
+###[OWASP Web Application Honeypot Project](https://owasp.org/www-project-honeypot/) 
+
+The goal of the OWASP Honeypot Project is to identify emerging attacks against web applications and report them to the community, in order to facilitate protection against such targeted attacks.
+
+Based around the earlier OWASP/WASC Distributed Web Honeypots Project (https://github.com/SpiderLabs/owasp-distributed-web-honeypots)
+
+The primary aims of the project are:
+
+- Real-time, detailed Web Application Threat Attack Data
+- Threat Reports to the community
+
+#### Repository
+- [OWASP Web Application Honeypot](https://github.com/OWASP/Honeypot-Project/)
+
+#### Skills Required
+- HTML/CSS/JavaScript/PHP
+- Python
+- Docker
+- Apache Web Server/NGINX
+- Desirable: ModSecurity/Coraza WAF and.or Core Rule Set Knowledge
+- No in depth security knowledge required
+
+##### Getting started
+- Check[GitHub project](https://github.com/OWASP/Honeypot-Project/)
+- Get in touch with one of the project leaders [Adrian Winckles] (https://www.linkedin.com/in/adrian-winckles-2582ab3/)
+- Join [OWASP Slack](https://owasp.org/slack/invite) and contact us on channel #honeypot-project
+
+#### Projects / Ideas
+![Preferred for "Medium" GSoC 2026 project](https://img.shields.io/badge/medium%20size%20(~175h)-preferred-green)
+![Difficulty: Medium](https://img.shields.io/badge/difficulty-medium-orange)
+- Adaptive Security for Dynamic ModSEcurity WAF Rules  - As the honeypot utilises CRS, we would like to be able to utilise CRS 4.1 PlugIns to be able dynamically change CRS WAF Rules to better identify anomalies which don’t trigger existing WAF rule.  Ideally a proof off concept approach so the new honeytraps can be inserted as rules “on the fly”.
+- Develop a mechanism to automatically the docker container to the latest version of CRS 
+- Develop a chameleon variant which as the ability to change its persona and stimuli to external stimuli (swapping docker containers) 
+- Develop different persona’s to mmic fingerprints for well known vulnerable web applications 
+
+#### Mentors
+- [Adrian Winckles ](mailto:adrian.winckles@owasp.org)
